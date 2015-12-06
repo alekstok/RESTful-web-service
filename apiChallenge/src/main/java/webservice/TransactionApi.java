@@ -85,7 +85,7 @@ public class TransactionApi {
 	}
 
 	@PUT
-	@Path("/put/{transactionId}")
+	@Path("/transaction/{transactionId}")
 	@Consumes(MediaType.TEXT_PLAIN)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response addTransaction(
